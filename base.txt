@@ -1,0 +1,25 @@
+abbr = descreve algo ao por mouse em cima
+Cores por HEXADECIMAL
+Decimal = 0 1 2 3 4 5 6 7 8 9
+Hexadecimal = 0 1 2  4 5 6 7 8 9 A B C D E F
+CORES EM RGB = RED GREEN BLUE
+CORES POR HSL = HUE, SATURATION, LUMINOSITY
+
+Cores primaria = amarelo, vermelho, azul.
+Cores secundária = laranja, violeta, verde
+Cores terciarias = mistura entra primaria e secundária
+nomear cores terciarias = nome primeira + secundária
+Cores complementares = cor oposta no circulo cromatico
+cores analogas = cor vizinha
+Cores analogas relacionadas = pega cor principal, vizinha principal, escolhe a terceira pulando a próxima
+cores intercaladas = https://www.notion.so/Cores-frias-quentes-af8e76c18e5842aa93f3eb0745a2351e
+monocromia = pegar um cor e mudar a luminosidade
+
+medidas absolutas = cm, mm, in, px, pt, pc
+medidas relativas = em, ex, rem, vw, vh, %
+
+CSS shorthand font
+font style>font-weight>font-size>font-family
+font: italic bolder 3em 'work sans', sans-serif;
+
+# id, . class, : pseudo-class, :: pseudo-element, > children

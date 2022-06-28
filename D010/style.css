@@ -1,0 +1,97 @@
+@font-face {
+  font-family: idroid;
+  src: url(fontes/idroid.otf);
+}
+body {
+  background-color: rgb(112, 197, 112);
+}
+*{
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(0deg, #207043ff, #3AD17Dff, #2DA060ff, #185634ff, #1D693Fff);
+}
+header > center > h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header > center > p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+nav {
+  transform: translate(-10px, -24px);
+}
+nav > ul > a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+  margin-left: 10px;
+}
+main > article > h2 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: green;
+  font-family:idroid;
+}
+main > article > p {
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family:arial;
+  font-size: 12px;
+  text-indent: 1.5em;
+}
+main > article {
+  background-color: white;
+  width: 90%;
+  margin-left: 30px;
+}
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.fundinho{
+  background-color: rgb(255, 255, 255);
+}
+.fundinho-dentro{
+  margin: 0px 2.5px 0px 2.5px;
+  height: 280px;
+  width: 600px;
+  background-color: rgb(86, 194, 149)
+}
+.fundinho-dentro > h3 {
+  height: ;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: green;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+.lista-final > li:not(:nth-child(1)){
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+}
+footer {
+  background-color: green;
+}

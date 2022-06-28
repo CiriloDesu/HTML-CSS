@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'Signlia';
+            src: url(Signlia\ FREE.otf) format('opentype'), url(Signlia\ FREE.ttf) format('truetype');
+            font-weight: normal;
+            /*Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            -embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg */
+        }
+        body{
+            font-family: 'arial', sans-serif;
+        }
+        h1{
+            font-family: 'Signlia', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus architecto harum facilis at animi, fugit nemo vel ab ducimus inventore, totam debitis facere rerum deleniti, sed quos corrupti! Vero.</p>
+</body>
+</html>
