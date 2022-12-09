@@ -12,12 +12,17 @@
         table{
             border-collapse: collapse;
             width: 500px;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
         }
         td{
             text-align: center;
+        }
+        thead> tr > th { /* grudar o td topo*/
+            position: sticky;
+            top: 0;
         }
         thead{
             background-color: gray;
@@ -26,6 +31,13 @@
         tfoot{
             background-color: gray;
             color: white;
+        }
+        caption{
+            font-size: 1.5em;
+
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightblue;
         }
     </style>
 </head>
@@ -38,9 +50,12 @@
 
     <table>
         <thead>
+            <caption>
+                aaaaaaaaaaa
+            </caption>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -59,7 +74,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>0000</td>
             </tr>
         </tfoot>
