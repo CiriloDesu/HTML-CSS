@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
     <title>Responsiva</title>
     <script src="https://kit.fontawesome.com/7a4005c7d1.js" ></script>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Sitezin</h1>
         <i class="fa-solid fa-bars" id="burguer" onclick="clickMenu()"></i>
@@ -33,6 +34,14 @@
                 itens.style.display = 'none'
             }   else {
                 itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
