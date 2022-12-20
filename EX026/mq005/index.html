@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Responsiva</title>
+    <script src="https://kit.fontawesome.com/7a4005c7d1.js" ></script>
+</head>
+<body>
+    <header>
+        <h1>Sitezin</h1>
+        <i class="fa-solid fa-bars" id="burguer" onclick="clickMenu()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">op1</a></li>
+                <li><a href="#">op2</a></li>
+                <li><a href="#">op3</a></li>
+                <li><a href="#">op4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando MQ</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis maxime vitae dolorem, porro officiis impedit eligendi placeat odit esse velit necessitatibus accusantium, dicta optio harum, accusamus qui maiores voluptatem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur commodi assumenda provident, culpa amet, neque veritatis iusto possimus ullam iure facere doloremque quod eius cum quidem numquam placeat eum.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quasi eos rem dolores veritatis natus, incidunt voluptas aperiam culpa facere voluptatibus perspiciatis est error repellat autem vel iusto! Veniam, non? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, eaque, dolores quo excepturi quis enim in, voluptate optio corrupti quasi commodi ab maxime iure autem tempore quibusdam molestiae. Quam, quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore porro nisi, iste similique excepturi asperiores quaerat laudantium fugiat cumque mollitia dicta. Voluptas nihil distinctio atque eligendi minima quaerat perspiciatis a!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }   else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
